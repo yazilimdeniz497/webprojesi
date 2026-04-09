@@ -62,7 +62,7 @@
         font-size: 25px;
       }.hakkımda{
         width: 100%;
-        height: 500px;
+        height: 400px;
         background-color: #606c38;
         display: flex;
         justify-content: center;
@@ -76,7 +76,40 @@
       .hakkımda p{
         font-size: 20px;
 
+      }.projeler{
+        width: 100%;
+        height: 900px;
+        background-color: #fefae0;
+        text-align: center;
+
+
+      }.container{
+        display: flex;
+        gap:10px
+      }.card{
+        border: 1px solid black;
+        border-radius: 15px;
+      }img{
+        border-radius:15px;
       }
+      @media screen and (max-width:600px) {
+        .projeler{
+            height: 4000px;
+        }
+        .container{
+            display: flex;
+            
+            flex-direction: column;
+            flex-wrap: wrap;
+           
+            
+
+        }
+        
+
+        
+      }
+    
     </style>
 </head>
 <body>
